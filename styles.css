@@ -144,7 +144,7 @@ img {
 .card:hover{
   box-shadow: none;
 }
-@media (max-width: 375px) {
+@media only screen and (max-width: 600px){
   .wrapper  {
     grid-template-columns: 1fr;
   }
